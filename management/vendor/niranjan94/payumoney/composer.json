@@ -1,0 +1,31 @@
+{
+  "name": "niranjan94/payumoney",
+  "description": "PayUMoney library for PHP",
+  "keywords": ["payu", "payuindia", "payumoney"],
+  "homepage": "http://github.com/niranjan94/payumoney-php",
+  "type": "library",
+  "version": "1.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladislav Veselinov",
+      "email": "vladislav@v3labs.com",
+      "homepage": "http://github.com/v3labs"
+    },
+    {
+      "name": "Niranjan R",
+      "email": "niranjan94@yahoo.com",
+      "homepage": "https://www.codezero.xyz"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CodeZero\\PayUMoney\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "symfony/options-resolver": "~2.6|~3.0",
+    "symfony/http-foundation": "~2.6|~3.0"
+  }
+}
